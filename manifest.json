@@ -1,0 +1,22 @@
+{
+  "name": "How Much Time Do I Waste?",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Tracks time spent on websites",
+  "icons": { "128": "icon-128.png" },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "background",
+    "idle",
+    "storage",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "The Time Waster",
+    "default_icon": "icon-active.png",
+    "default_popup": "popup.html"
+  }
+}
