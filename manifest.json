@@ -3,9 +3,9 @@
   "manifest_version": 2,
   "version": "1.0",
   "description": "Tracks time spent on websites",
-  "icons": { "128": "icon-128.png" },
+  "icons": { "128": "img/icon-128.png" },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["app/background.js"]
   },
   "permissions": [
     "activeTab",
@@ -16,7 +16,7 @@
   ],
   "browser_action": {
     "default_title": "The Time Waster",
-    "default_icon": "icon-active.png",
+    "default_icon": "img/icon-active.png",
     "default_popup": "popup.html"
   }
 }

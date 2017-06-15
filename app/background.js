@@ -33,6 +33,3 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById('Start-Timer').addEventListener('click', startTimer)
   document.getElementById('Clear-Data').addEventListener('click', clearData)
 })
-
-var num = 1
-eventLoop()
